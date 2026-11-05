@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Automated knitting machine concept illustration">
+<defs>
+ <radialGradient id="bg" cx="60%" cy="30%" r="90%"><stop stop-color="#dce3e9"/><stop offset=".7" stop-color="#a9b9c7"/><stop offset="1" stop-color="#71869b"/></radialGradient>
+ <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fbfa"/><stop offset=".4" stop-color="#b9c8cf"/><stop offset=".65" stop-color="#f4f7f6"/><stop offset="1" stop-color="#7d939e"/></linearGradient>
+ <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#364553"/><stop offset="1" stop-color="#111c29"/></linearGradient>
+ <filter id="drop"><feDropShadow dx="0" dy="28" stdDeviation="20" flood-opacity=".3"/></filter>
+ <filter id="blur"><feGaussianBlur stdDeviation="20"/></filter>
+</defs>
+<rect width="1200" height="900" fill="url(#bg)"/>
+<ellipse cx="596" cy="737" rx="400" ry="60" fill="#536778" opacity=".25" filter="url(#blur)"/>
+<g filter="url(#drop)">
+ <path d="M270 483Q600 385 928 484V662Q604 776 270 666Z" fill="url(#shell)" stroke="#dfe6e9" stroke-width="8"/>
+ <ellipse cx="600" cy="484" rx="327" ry="132" fill="#465767" stroke="#d3e2e5" stroke-width="20"/>
+ <ellipse cx="600" cy="482" rx="278" ry="91" fill="url(#dark)" stroke="#92a5ae" stroke-width="14"/>
+ <ellipse cx="600" cy="480" rx="199" ry="58" fill="#dce9ec"/>
+ <ellipse cx="600" cy="483" rx="174" ry="45" fill="#394858"/>
+ <g fill="none" stroke="#d9e5e8" stroke-width="8" stroke-linecap="round">
+  <path d="M370 453l-18-37M427 422l-11-43M494 400l-7-40M564 393v-42M632 393l5-42M702 401l11-41M764 419l18-39M821 450l22-36"/>
+ </g>
+ <path d="M432 492Q480 477 505 493T582 494T660 500T744 494" fill="none" stroke="#f1e9dd" stroke-width="21" stroke-linecap="round"/>
+ <path d="M444 508Q490 484 534 506T627 510T717 506" fill="none" stroke="#d36d67" stroke-width="16" stroke-linecap="round"/>
+ <path d="M776 513Q823 390 798 266Q787 219 829 195" fill="none" stroke="#d36d67" stroke-width="13" stroke-linecap="round"/>
+ <ellipse cx="823" cy="168" rx="58" ry="53" fill="#bb645e" stroke="#f1d3c7" stroke-width="7"/>
+ <path d="M823 118V216M765 168H881" stroke="#ecb4a5" opacity=".4" stroke-width="6"/>
+ <path d="M453 641Q598 696 770 641" fill="none" stroke="#8ba2ae" stroke-width="3"/>
+ <rect x="526" y="625" width="149" height="58" rx="17" fill="#263b4d"/>
+ <circle cx="637" cy="654" r="12" fill="#9bd4ad"/>
+ <path d="M553 654h53" stroke="#d6e7ed" stroke-width="8" stroke-linecap="round"/>
+</g>
+<text x="70" y="840" font-family="Arial,sans-serif" font-size="15" letter-spacing="5" fill="#30475b">HARDWARE MEETS CODE</text>
+</svg>

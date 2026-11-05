@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c0d10">
+  <meta name="description" content="Maxim Spaas — Product development, design and explorations in mobility, interaction and technology.">
+  <meta property="og:title" content="Maxim Spaas — Product Designer">
+  <meta property="og:description" content="Form, function and a little fascination. Selected design explorations and a way to get in touch.">
+  <meta property="og:type" content="website">
+  <title>Maxim Spaas — Product Designer</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-meter" id="scrollMeter" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner shell">
+      <a class="wordmark" href="#top" aria-label="Maxim Spaas, back to top">maxim<span>spaas</span><span class="brand-dot">.</span></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#approach">Approach</a>
+        <a href="#about">About</a>
+      </nav>
+      <a class="header-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-controls="mobileMenu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+    <nav class="mobile-nav" id="mobileMenu" aria-label="Mobile navigation" inert>
+      <a href="#work">Work</a>
+      <a href="#approach">Approach</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="heroHeading">
+      <div class="hero-halo" aria-hidden="true"></div>
+      <div class="hero-content shell">
+        <div class="hero-copy">
+          <p class="eyebrow light fade-up"><span class="status-mark"></span> PRODUCT DESIGN · ANTWERP, BELGIUM</p>
+          <h1 id="heroHeading" class="fade-up delay-1">Form follows<br><em>fascination.</em></h1>
+          <p class="hero-sub fade-up delay-2">Objects that feel considered. Experiences that feel effortless. Ideas that deserve to exist.</p>
+          <div class="hero-actions fade-up delay-3">
+            <a class="pill-button primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
+            <a class="text-link on-dark" href="#about">Meet the designer <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-art fade-up delay-2" aria-hidden="true"><img src="assets/bike.svg" alt="" fetchpriority="high"></div>
+        <div class="hero-bottom" aria-hidden="true"><span>SCROLL TO EXPLORE</span><span class="hero-scroll-line"></span><span>01 / 04</span></div>
+      </div>
+    </section>
+
+    <section class="intro section-pad" aria-labelledby="introHeading">
+      <div class="shell intro-layout">
+        <p class="eyebrow muted reveal">THE THINKING BEHIND THE MAKING</p>
+        <h2 id="introHeading" class="statement reveal">The best design isn't just <span>beautiful.</span><br>It makes sense.</h2>
+        <p class="intro-description reveal">I'm Maxim, a product development designer interested in where engineering, human behaviour and aesthetics meet. I like the details you notice — and the ones you don't.</p>
+      </div>
+    </section>
+
+    <section class="work-section section-pad" id="work" aria-labelledby="workHeading">
+      <div class="shell">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow muted">01 / SELECTED EXPLORATIONS</p>
+            <h2 id="workHeading">The work<span class="dot-accent">.</span></h2>
+          </div>
+          <p>Ideas translated into form.<br>From first sketch to final detail.</p>
+        </div>
+        <div class="filters reveal" role="group" aria-label="Filter projects">
+          <button type="button" class="filter-chip is-active" data-filter="all" aria-pressed="true">All work <span>04</span></button>
+          <button type="button" class="filter-chip" data-filter="mobility" aria-pressed="false">Mobility</button>
+          <button type="button" class="filter-chip" data-filter="product" aria-pressed="false">Products</button>
+          <button type="button" class="filter-chip" data-filter="technology" aria-pressed="false">Technology</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          <article class="project-card project-card-wide reveal" data-category="mobility">
+            <button class="project-cover cover-bike open-project" type="button" data-project="motion" aria-label="Open Motion Study details">
+              <img src="assets/bike.svg" alt="Illustrative visualization of a high-performance road bicycle" loading="lazy">
+              <span class="cover-tag">EXPLORATION / 001</span>
+              <span class="cover-arrow" aria-hidden="true">↗</span>
+            </button>
+            <div class="project-info"><div><p class="project-type">Mobility / Performance</p><h3>Motion Study</h3></div><span class="project-year">01</span></div>
+          </article>
+
+          <article class="project-card reveal" data-category="mobility">
+            <button class="project-cover cover-glider open-project" type="button" data-project="flight" aria-label="Open Flight Study details">
+              <img src="assets/glider.svg" alt="Illustrative visualization of a glider seen from above" loading="lazy">
+              <span class="cover-tag">EXPLORATION / 002</span>
+              <span class="cover-arrow" aria-hidden="true">↗</span>
+            </button>
+            <div class="project-info"><div><p class="project-type">Aviation / Form</p><h3>Flight Study</h3></div><span class="project-year">02</span></div>
+          </article>
+
+          <article class="project-card reveal" data-category="product">
+            <button class="project-cover cover-vespa open-project" type="button" data-project="timeless" aria-label="Open Timeless Objects details">
+              <img src="assets/vespa.svg" alt="Illustrative retro-inspired kitchen appliance concept" loading="lazy">
+              <span class="cover-tag dark-tag">EXPLORATION / 003</span>
+              <span class="cover-arrow dark-arrow" aria-hidden="true">↗</span>
+            </button>
+            <div class="project-info"><div><p class="project-type">Industrial Design / Brand DNA</p><h3>Timeless Objects</h3></div><span class="project-year">03</span></div>
+          </article>
+
+          <article class="project-card project-card-wide reveal" data-category="technology">
+            <button class="project-cover cover-knit open-project" type="button" data-project="knitlab" aria-label="Open KnitLab details">
+              <img src="assets/knitting.svg" alt="Illustrative visualization of an automated circular knitting machine" loading="lazy">
+              <span class="cover-tag dark-tag">EXPLORATION / 004</span>
+              <span class="cover-arrow dark-arrow" aria-hidden="true">↗</span>
+            </button>
+            <div class="project-info"><div><p class="project-type">Prototyping / Mechatronics</p><h3>KnitLab</h3></div><span class="project-year">04</span></div>
+          </article>
+        </div>
+        <div class="portfolio-note reveal"><span class="tiny-spark">✳</span> Concept visuals and working titles in this demo can be replaced by your actual project photos and descriptions. <a href="https://maximspaas.myportfolio.com/welcome" target="_blank" rel="noopener noreferrer">See original portfolio ↗</a></div>
+      </div>
+    </section>
+
+    <section class="manifesto section-pad" id="approach" aria-labelledby="approachHeading">
+      <div class="shell manifesto-inner">
+        <div class="manifesto-top reveal"><p class="eyebrow light">02 / MY APPROACH</p><p class="manifesto-index">DESIGN IS A PROCESS, NOT A STYLE</p></div>
+        <h2 id="approachHeading" class="manifesto-title reveal">Every detail<br><span>earns its place.</span></h2>
+        <div class="process-grid">
+          <div class="process-item reveal"><span class="process-no">01</span><h3>Understand.</h3><p>Start with people, context and the right questions.</p></div>
+          <div class="process-item reveal"><span class="process-no">02</span><h3>Explore.</h3><p>Sketch widely. Challenge assumptions. Find the meaningful direction.</p></div>
+          <div class="process-item reveal"><span class="process-no">03</span><h3>Make.</h3><p>Prototype, test and refine until form and function come together.</p></div>
+        </div>
+      </div>
+      <div class="manifesto-orb" aria-hidden="true"></div>
+    </section>
+
+    <section class="about section-pad" id="about" aria-labelledby="aboutHeading">
+      <div class="shell about-layout">
+        <div class="about-visual reveal" aria-hidden="true"><div class="visual-ring ring-one"></div><div class="visual-ring ring-two"></div><span class="about-monogram">M<span>S</span></span><span class="about-visual-caption">DESIGN / IN MOTION</span></div>
+        <div class="about-copy reveal">
+          <p class="eyebrow muted">03 / THE PERSON BEHIND THE PROCESS</p>
+          <h2 id="aboutHeading">Curious by<br><em>design.</em></h2>
+          <p>I'm Maxim Spaas, a product development student at the University of Antwerp, Belgium.</p>
+          <p>My interests move between physical products, mobility, aerodynamics and emerging technologies. Whether it's a functional prototype or a refined product concept, I enjoy bringing ideas into the real world.</p>
+          <div class="skills" aria-label="Areas of interest"><span>Product development</span><span>CAD & rendering</span><span>Prototyping</span><span>User-centred design</span></div>
+          <a class="text-link" href="https://maximspaas.myportfolio.com/welcome" target="_blank" rel="noopener noreferrer">Visit my current portfolio <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact" aria-labelledby="contactHeading">
+      <div class="shell contact-inner reveal">
+        <p class="eyebrow light">04 / WHAT'S NEXT?</p>
+        <h2 id="contactHeading">Have an idea?<br><span>Let's make it real.</span></h2>
+        <p>Interesting projects begin with conversations. Let's talk about yours.</p>
+        <a href="https://maximspaas.myportfolio.com/welcome" class="pill-button white" target="_blank" rel="noopener noreferrer">Get in touch via my portfolio <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner"><a href="#top" class="footer-brand">maximspaas<span>.</span></a><span>© <span id="footerYear">2026</span> Maxim Spaas</span><a href="#top">Back to top ↑</a></div>
+  </footer>
+
+  <dialog class="project-dialog" id="projectDialog" aria-labelledby="dialogTitle">
+    <button class="dialog-close" id="dialogClose" type="button" aria-label="Close project details">×</button>
+    <div class="dialog-media"><img id="dialogImage" src="assets/bike.svg" alt=""></div>
+    <div class="dialog-copy"><p class="eyebrow muted" id="dialogCategory"></p><h2 id="dialogTitle"></h2><p id="dialogDescription"></p><p class="dialog-disclaimer">Preview content — replace with the real project case study and images before publishing.</p><a href="https://maximspaas.myportfolio.com/welcome" target="_blank" rel="noopener noreferrer" class="text-link">See original portfolio ↗</a></div>
+  </dialog>
+</body>
+</html>

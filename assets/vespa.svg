@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Retro-inspired kitchen appliance concept illustration">
+<defs>
+ <radialGradient id="bg" cx="50%" cy="45%" r="80%"><stop stop-color="#f6f4ee"/><stop offset=".7" stop-color="#d8d8d1"/><stop offset="1" stop-color="#c9cec9"/></radialGradient>
+ <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d3ece0"/><stop offset=".24" stop-color="#a5cab9"/><stop offset=".48" stop-color="#7ca999"/><stop offset=".74" stop-color="#badfd0"/><stop offset="1" stop-color="#628f7f"/></linearGradient>
+ <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#6c7980"/><stop offset=".14" stop-color="#fbfdfe"/><stop offset=".35" stop-color="#7f9097"/><stop offset=".6" stop-color="#fff"/><stop offset=".82" stop-color="#819097"/><stop offset="1" stop-color="#e6eceb"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b2b30"/><stop offset=".55" stop-color="#41575d"/><stop offset="1" stop-color="#121e21"/></linearGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="23"/></filter>
+ <filter id="drop"><feDropShadow dx="0" dy="28" stdDeviation="25" flood-color="#4d5d55" flood-opacity=".26"/></filter>
+</defs>
+<rect width="1200" height="900" fill="url(#bg)"/>
+<ellipse cx="612" cy="751" rx="358" ry="54" fill="#68736b" opacity=".2" filter="url(#soft)"/>
+<g filter="url(#drop)">
+ <rect x="316" y="179" width="568" height="563" rx="178" fill="url(#mint)" stroke="#9db8ac" stroke-width="4"/>
+ <path d="M353 341Q375 212 507 201H693Q834 208 848 341" fill="none" stroke="#e9fff1" stroke-width="12" opacity=".35"/>
+ <rect x="382" y="376" width="436" height="294" rx="76" fill="#607d74" opacity=".5"/>
+ <rect x="396" y="387" width="408" height="270" rx="65" fill="url(#glass)" stroke="url(#chrome)" stroke-width="13"/>
+ <path d="M459 424Q475 405 540 407" fill="none" stroke="#c2e5dd" stroke-opacity=".4" stroke-width="10" stroke-linecap="round"/>
+ <path d="M388 685H814" stroke="url(#chrome)" stroke-width="14" stroke-linecap="round"/>
+ <path d="M382 720Q605 748 822 716" fill="none" stroke="url(#chrome)" stroke-width="16"/>
+ <circle cx="600" cy="293" r="56" fill="url(#chrome)" stroke="#8b9a96" stroke-width="5"/>
+ <circle cx="600" cy="293" r="38" fill="#f2f8f3" stroke="#a7b3ac" stroke-width="4"/>
+ <path d="M600 290L615 268" stroke="#2b4f49" stroke-width="6" stroke-linecap="round"/>
+ <text x="600" y="355" font-family="Arial,sans-serif" text-anchor="middle" font-size="19" fill="#ecf8f1" letter-spacing="5">STUDIO CONCEPT</text>
+ <rect x="514" y="629" width="173" height="23" rx="11" fill="url(#chrome)"/>
+ <rect x="431" y="727" width="72" height="26" rx="10" fill="#4c6860"/><rect x="691" y="727" width="72" height="26" rx="10" fill="#4c6860"/>
+</g>
+<text x="600" y="840" font-family="Arial,sans-serif" font-size="15" letter-spacing="6" text-anchor="middle" fill="#586c62">TIMELESS OBJECTS</text>
+</svg>

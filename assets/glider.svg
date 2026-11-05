@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Conceptual sailplane illustration">
+<defs>
+ <radialGradient id="bg" cx="52%" cy="32%" r="84%"><stop stop-color="#a4bdd6"/><stop offset=".42" stop-color="#54738f"/><stop offset="1" stop-color="#1f3349"/></radialGradient>
+ <linearGradient id="wing" x1="0" x2=".8" y1="0" y2="1"><stop stop-color="#fbfcff"/><stop offset=".18" stop-color="#d7e1eb"/><stop offset=".45" stop-color="#839bad"/><stop offset=".7" stop-color="#eff7fa"/><stop offset="1" stop-color="#667d8d"/></linearGradient>
+ <linearGradient id="body" x1="0" y1="0" x2="1" y2=".4"><stop stop-color="#f8fafd"/><stop offset=".34" stop-color="#c7d7e5"/><stop offset=".6" stop-color="#516477"/><stop offset="1" stop-color="#f3f7f9"/></linearGradient>
+ <filter id="cloud"><feGaussianBlur stdDeviation="54"/></filter>
+ <filter id="airShadow"><feDropShadow dx="16" dy="23" stdDeviation="15" flood-color="#102136" flood-opacity=".45"/></filter>
+</defs>
+<rect width="1200" height="900" fill="url(#bg)"/>
+<g filter="url(#cloud)" fill="#d6e9f8" opacity=".2"><ellipse cx="270" cy="180" rx="400" ry="110"/><ellipse cx="1080" cy="715" rx="400" ry="160"/><ellipse cx="850" cy="220" rx="340" ry="70"/></g>
+<g transform="rotate(-13 600 440)" filter="url(#airShadow)">
+ <path d="M590 66Q609 72 615 98L637 651L628 797L588 797L580 651L587 99Q589 78 590 66Z" fill="url(#body)" stroke="#d9e7ed" stroke-width="3"/>
+ <path d="M588 361L53 438Q18 448 21 464L583 451L632 450L1180 462Q1190 446 1150 438L634 361Z" fill="url(#wing)" stroke="#d8e8ee" stroke-width="3"/>
+ <path d="M578 724L380 774L375 790L604 768L827 788L824 774L634 724" fill="url(#wing)" stroke="#ebf4f7" stroke-width="3"/>
+ <path d="M591 175Q603 131 614 179L624 292Q609 323 584 292Z" fill="#273b50" stroke="#aabccc" stroke-width="5"/>
+ <path d="M601 150L605 285" stroke="#d3e9f3" stroke-opacity=".6" stroke-width="3"/>
+ <path d="M582 447L56 461M632 447L1155 460" stroke="#748f9f" stroke-opacity=".6" stroke-width="3"/>
+ <path d="M592 68L594 100" stroke="#fff" stroke-width="3"/>
+</g>
+<text x="55" y="840" font-family="Arial,sans-serif" font-size="15" letter-spacing="6" fill="#e1edf6" opacity=".8">AERODYNAMIC EXPLORATIONS</text>
+</svg>
